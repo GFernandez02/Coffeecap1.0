@@ -13,6 +13,42 @@
         android:theme="@style/Theme.Coffeecap"
         tools:targetApi="31">
         <activity
+            android:name=".Splashscreen"
+            android:exported="true">
+
+        <intent-filter>
+            <action android:name="android.intent.action.MAIN" />
+
+            <category android:name="android.intent.category.LAUNCHER" />
+        </intent-filter>
+
+        </activity>
+
+        <activity
+            android:name=".Menusnacks"
+            android:exported="false" />
+        <activity
+            android:name=".Productosnacks"
+            android:exported="false" />
+        <activity
+            android:name=".Menuensalada"
+            android:exported="false" />
+        <activity
+            android:name=".Productoensalada"
+            android:exported="false" />
+        <activity
+            android:name=".Menupastel"
+            android:exported="false" />
+        <activity
+            android:name=".Productopastel"
+            android:exported="false" />
+        <activity
+            android:name=".Menuhamburguesa"
+            android:exported="false" />
+        <activity
+            android:name=".Productohamburguesa"
+            android:exported="false" />
+        <activity
             android:name=".Transbankview"
             android:exported="false" />
         <activity
@@ -46,11 +82,7 @@
         <activity
             android:name=".MainActivity"
             android:exported="true">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
 
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
         </activity>
 
         <meta-data
