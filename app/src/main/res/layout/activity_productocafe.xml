@@ -6,14 +6,23 @@
     android:layout_height="match_parent"
     tools:context=".Productocafe">
 
+    <RadioButton
+        android:id="@+id/radioButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.853"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.282" />
+
     <TextView
         android:id="@+id/textView12"
         android:layout_width="156dp"
         android:layout_height="78dp"
-        android:text=" Cafes:
-                       Precio:
-                       Combo:
-                       Descuento:"
+        android:text="Espresso:
+                       Precio:"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
@@ -25,10 +34,8 @@
         android:id="@+id/textView11"
         android:layout_width="156dp"
         android:layout_height="78dp"
-        android:text=" Cafes:
-                       Precio:
-                       Combo:
-                       Descuento:"
+        android:text="Capuccino:
+                       Precio:"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
@@ -40,10 +47,8 @@
         android:id="@+id/textView10"
         android:layout_width="156dp"
         android:layout_height="78dp"
-        android:text=" Cafes:
-                       Precio:
-                       Combo:
-                       Descuento:"
+        android:text="Latte:
+                       Precio:"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
@@ -183,34 +188,10 @@
         android:text="Continuar"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.466"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.903" />
-
-    <ImageView
-        android:id="@+id/imageView9"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.132"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.903"
-        app:srcCompat="@drawable/incap" />
-
-    <RadioButton
-        android:id="@+id/radioButton"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:checked="false"
-        android:clickable="false"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.853"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.282" />
+        app:layout_constraintVertical_bias="0.901" />
 
     <RadioButton
         android:id="@+id/radioButton2"

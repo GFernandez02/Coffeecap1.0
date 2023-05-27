@@ -10,10 +10,8 @@
         android:id="@+id/textView27"
         android:layout_width="156dp"
         android:layout_height="78dp"
-        android:text=" Ensaladas:
-                       Precio:
-                       Combo:
-                       Descuento:"
+        android:text=" Ensalada de frutas:
+                       Precio:"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
@@ -35,8 +33,10 @@
             android:textAlignment="center"
             android:textSize="24sp"
             android:textStyle="bold"
-            tools:layout_editor_absoluteX="134dp"
-            tools:layout_editor_absoluteY="38dp" />
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
 
         <ImageButton
             android:id="@+id/btnRegreso4"
@@ -141,10 +141,8 @@
         android:id="@+id/textView38"
         android:layout_width="156dp"
         android:layout_height="78dp"
-        android:text=" Ensaladas:
-                       Precio:
-                       Combo:
-                       Descuento:"
+        android:text=" Ensalada vegetariana:
+                       Precio:"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
@@ -156,10 +154,8 @@
         android:id="@+id/textView39"
         android:layout_width="156dp"
         android:layout_height="78dp"
-        android:text=" Ensaladas:
-                       Precio:
-                       Combo:
-                       Descuento:"
+        android:text=" Ensalada a la Chilena:
+                       Precio:"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"

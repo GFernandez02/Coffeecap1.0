@@ -9,7 +9,15 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
 
+
+import android.text.method.PasswordTransformationMethod;
+
+
+
+
 public class MainActivity extends AppCompatActivity {
+
+
 
     public EditText txtIngCorreo;
     public EditText txtIngPass;
@@ -24,8 +32,10 @@ public class MainActivity extends AppCompatActivity {
 
         txtIngCorreo = findViewById(R.id.txtIngCorreo);
         txtIngPass = findViewById(R.id.txtIngPass);
+        txtIngPass.setTransformationMethod(new PasswordTransformationMethod());
         btnIniciarSesion = findViewById(R.id.btnIniciarSesion);
         btnAyuda = findViewById(R.id.btnAyuda);
+
 
         btnIniciarSesion.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -45,6 +55,9 @@ public class MainActivity extends AppCompatActivity {
 
                     Toast.makeText(MainActivity.this, "Error, por favor ingrese credenciales nuevamente", Toast.LENGTH_SHORT).show();
                 }
+
+            }
+            });
 //TODO ESTO ES EL NUCLEO DE LOS ONCLICKs
                 btnAyuda.setOnClickListener(new View.OnClickListener() {
                     @Override
@@ -55,7 +68,8 @@ public class MainActivity extends AppCompatActivity {
 
                     }
                 });
-            }
-        });
+
     }
+
+    // Clase estática para el filtro de contraseña
 }

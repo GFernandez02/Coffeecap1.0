@@ -23,7 +23,7 @@ public class Ayuda extends AppCompatActivity {
             @Override
             public void onClick(View v) {
 
-                Intent intent = new Intent(Ayuda.this, Splashscreen.class);
+                Intent intent = new Intent(Ayuda.this, MainActivity.class);
                 startActivity(intent);
             }
         });

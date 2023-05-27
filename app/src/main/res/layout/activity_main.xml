@@ -24,24 +24,24 @@
         android:layout_height="47dp"
         android:background="#D9D9D9"
         android:ems="10"
+        android:hint="Ingrese su cuenta...."
         android:inputType="text"
-        android:text="Ingresar cuenta..."
         android:textColor="#0C4BC6"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.491"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.308" />
+        app:layout_constraintVertical_bias="0.307" />
 
     <EditText
         android:id="@+id/txtIngPass"
         android:layout_width="295dp"
         android:layout_height="42dp"
+        android:hint="Ingrese su clave...."
         android:background="#D9D9D9"
         android:ems="10"
         android:inputType="text"
-        android:text="Ingresar clave..."
         android:textColor="#0C4BC6"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"

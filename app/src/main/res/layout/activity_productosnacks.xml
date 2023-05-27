@@ -6,6 +6,17 @@
     android:layout_height="match_parent"
     tools:context=".Productosnacks">
 
+    <RadioButton
+        android:id="@+id/radioButton8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.853"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.301" />
+
     <ImageView
         android:id="@+id/imageView41"
         android:layout_width="wrap_content"
@@ -45,10 +56,8 @@
         android:id="@+id/textView40"
         android:layout_width="156dp"
         android:layout_height="78dp"
-        android:text=" Snacks:
-                       Precio:
-                       Combo:
-                       Descuento:"
+        android:text="Papas fritas:
+                       Precio:"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
@@ -82,8 +91,10 @@
             android:textAlignment="center"
             android:textSize="24sp"
             android:textStyle="bold"
-            tools:layout_editor_absoluteX="134dp"
-            tools:layout_editor_absoluteY="38dp" />
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
 
         <ImageButton
             android:id="@+id/btnRegreso4"
@@ -140,29 +151,14 @@
         android:id="@+id/textView41"
         android:layout_width="156dp"
         android:layout_height="78dp"
-        android:text=" Snacks:
-                       Precio:
-                       Combo:
-                       Descuento:"
+        android:text="Snacks:
+                       Precio:"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.467" />
-
-    <RadioButton
-        android:id="@+id/radioButton31"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:checked="false"
-        android:clickable="false"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.853"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.282" />
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/constraintLayout12"
@@ -180,10 +176,8 @@
         android:id="@+id/textView42"
         android:layout_width="156dp"
         android:layout_height="78dp"
-        android:text=" Snacks:
-                       Precio:
-                       Combo:
-                       Descuento:"
+        android:text="Galletas con chocolate:
+                       Precio:"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"

@@ -18,9 +18,9 @@
 
         <TextView
             android:id="@+id/textView21"
-            android:layout_width="141dp"
-            android:layout_height="55dp"
-            android:text="Datos del pedido"
+            android:layout_width="221dp"
+            android:layout_height="60dp"
+            android:text="Confirmar el pedido"
             android:textSize="24sp"
             android:textStyle="bold"
             app:layout_constraintBottom_toBottomOf="parent"
@@ -59,8 +59,11 @@
         android:layout_width="198dp"
         android:layout_height="116dp"
         android:text="Orden del pedido:
+
                       Hora de ingreso:
+
                       Hora estimada de entrega:
+
                       Total+iva:"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"

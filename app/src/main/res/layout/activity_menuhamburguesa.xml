@@ -38,7 +38,7 @@
         android:layout_height="76dp"
         android:ems="10"
         android:inputType="text"
-        android:text="Que necesitas?"
+        android:hint="Comentario adicional?"
         android:textColorHint="#000000"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -174,8 +174,10 @@
             android:text="Elegir tamaño"
             android:textSize="24sp"
             android:textStyle="bold"
-            tools:layout_editor_absoluteX="104dp"
-            tools:layout_editor_absoluteY="39dp" />
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 

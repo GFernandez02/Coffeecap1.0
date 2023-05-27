@@ -6,6 +6,41 @@
     android:layout_height="match_parent"
     tools:context=".Productohamburguesa">
 
+    <RadioButton
+        android:id="@+id/radioButton7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.853"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.279" />
+
+    <ImageView
+        android:id="@+id/imageView52"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.132"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.903"
+        app:srcCompat="@drawable/incap" />
+
+    <Button
+        android:id="@+id/btnSeguir5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#5286EB"
+        android:text="Continuar"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.903" />
+
     <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/constraintLayout11"
         android:layout_width="420dp"
@@ -22,10 +57,8 @@
         android:id="@+id/textView34"
         android:layout_width="156dp"
         android:layout_height="78dp"
-        android:text=" Pastel:
-                       Precio:
-                       Combo:
-                       Descuento:"
+        android:text=" Hamburguesa clasica:
+                       Precio:"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
@@ -58,46 +91,28 @@
 
     <TextView
         android:id="@+id/textView35"
-        android:layout_width="156dp"
-        android:layout_height="78dp"
-        android:text=" Pastel:
-                       Precio:
-                       Combo:
-                       Descuento:"
+        android:layout_width="179dp"
+        android:layout_height="75dp"
+        android:text=" Hamburguesa con queso:
+                       Precio:"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.269" />
+        app:layout_constraintVertical_bias="0.274" />
 
     <TextView
         android:id="@+id/textView36"
         android:layout_width="156dp"
         android:layout_height="78dp"
-        android:text=" Pastel:
-                       Precio:
-                       Combo:
-                       Descuento:"
+        android:text=" Hamburguesa vegetariana:
+                       Precio:"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.624" />
-
-    <RadioButton
-        android:id="@+id/radioButton21"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:checked="false"
-        android:clickable="false"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.853"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.282" />
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/constraintLayout13"
@@ -123,6 +138,7 @@
         app:layout_constraintVertical_bias="0.474" />
 
     <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraintLayout21"
         android:layout_width="410dp"
         android:layout_height="120dp"
         android:background="@drawable/header">
@@ -165,5 +181,42 @@
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintVertical_bias="0.509"
             app:srcCompat="@drawable/botonhome" />
+
     </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <ImageView
+        android:id="@+id/imageView49"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.094"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.28"
+        app:srcCompat="@drawable/icons8_hamburguesa_50" />
+
+    <ImageView
+        android:id="@+id/imageView50"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.094"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.461"
+        app:srcCompat="@drawable/icons8_hamburguesa_50_1_" />
+
+    <ImageView
+        android:id="@+id/imageView51"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.075"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.623"
+        app:srcCompat="@drawable/icons8_hamburguesa_80" />
 </androidx.constraintlayout.widget.ConstraintLayout>
